@@ -17,6 +17,7 @@
 		325F4F861DAB3FF9008B1CF9 /* base64UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F4F851DAB3FF9008B1CF9 /* base64UITests.m */; };
 		325F4F951DAB660B008B1CF9 /* base64Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F4F941DAB660B008B1CF9 /* base64Tool.m */; };
 		325F4F981DAB7A96008B1CF9 /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F4F971DAB7A96008B1CF9 /* MD5.m */; };
+		325F4F9D1DAB8003008B1CF9 /* md5简介 in Resources */ = {isa = PBXBuildFile; fileRef = 325F4F9C1DAB8003008B1CF9 /* md5简介 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		325F4F941DAB660B008B1CF9 /* base64Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64Tool.m; sourceTree = "<group>"; };
 		325F4F961DAB7A96008B1CF9 /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD5.h; path = base64/MD5.h; sourceTree = SOURCE_ROOT; };
 		325F4F971DAB7A96008B1CF9 /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MD5.m; path = base64/MD5.m; sourceTree = SOURCE_ROOT; };
+		325F4F9C1DAB8003008B1CF9 /* md5简介 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "md5简介"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		325F4F991DAB7AA8008B1CF9 /* MD5 */ = {
 			isa = PBXGroup;
 			children = (
+				325F4F9C1DAB8003008B1CF9 /* md5简介 */,
 				325F4F961DAB7A96008B1CF9 /* MD5.h */,
 				325F4F971DAB7A96008B1CF9 /* MD5.m */,
 			);
@@ -269,6 +272,7 @@
 			files = (
 				325F4F701DAB3FF9008B1CF9 /* LaunchScreen.storyboard in Resources */,
 				325F4F6D1DAB3FF9008B1CF9 /* Assets.xcassets in Resources */,
+				325F4F9D1DAB8003008B1CF9 /* md5简介 in Resources */,
 				325F4F6B1DAB3FF9008B1CF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

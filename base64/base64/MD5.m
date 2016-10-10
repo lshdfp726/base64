@@ -13,7 +13,7 @@
 + (NSString *)md5Encrypt:(NSString *)str {
     
     const char *cStr = [str UTF8String];
-    
+
     unsigned char result[16];
     
     CC_MD5(cStr,(unsigned int)strlen(cStr),result);
