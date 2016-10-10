@@ -16,6 +16,7 @@
 		325F4F7B1DAB3FF9008B1CF9 /* base64Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F4F7A1DAB3FF9008B1CF9 /* base64Tests.m */; };
 		325F4F861DAB3FF9008B1CF9 /* base64UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F4F851DAB3FF9008B1CF9 /* base64UITests.m */; };
 		325F4F951DAB660B008B1CF9 /* base64Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F4F941DAB660B008B1CF9 /* base64Tool.m */; };
+		325F4F981DAB7A96008B1CF9 /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F4F971DAB7A96008B1CF9 /* MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		325F4F871DAB3FF9008B1CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		325F4F931DAB660B008B1CF9 /* base64Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64Tool.h; sourceTree = "<group>"; };
 		325F4F941DAB660B008B1CF9 /* base64Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64Tool.m; sourceTree = "<group>"; };
+		325F4F961DAB7A96008B1CF9 /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD5.h; path = base64/MD5.h; sourceTree = SOURCE_ROOT; };
+		325F4F971DAB7A96008B1CF9 /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MD5.m; path = base64/MD5.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		325F4F5F1DAB3FF9008B1CF9 /* base64 */ = {
 			isa = PBXGroup;
 			children = (
+				325F4F991DAB7AA8008B1CF9 /* MD5 */,
 				325F4F631DAB3FF9008B1CF9 /* AppDelegate.h */,
 				325F4F641DAB3FF9008B1CF9 /* AppDelegate.m */,
 				325F4F661DAB3FF9008B1CF9 /* ViewController.h */,
@@ -143,6 +147,15 @@
 				325F4F871DAB3FF9008B1CF9 /* Info.plist */,
 			);
 			path = base64UITests;
+			sourceTree = "<group>";
+		};
+		325F4F991DAB7AA8008B1CF9 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				325F4F961DAB7A96008B1CF9 /* MD5.h */,
+				325F4F971DAB7A96008B1CF9 /* MD5.m */,
+			);
+			path = MD5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +296,7 @@
 			files = (
 				325F4F681DAB3FF9008B1CF9 /* ViewController.m in Sources */,
 				325F4F651DAB3FF9008B1CF9 /* AppDelegate.m in Sources */,
+				325F4F981DAB7A96008B1CF9 /* MD5.m in Sources */,
 				325F4F951DAB660B008B1CF9 /* base64Tool.m in Sources */,
 				325F4F621DAB3FF9008B1CF9 /* main.m in Sources */,
 			);

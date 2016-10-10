@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "base64Tool.h"
+#import "MD5.h"
 @interface ViewController ()<UITextFieldDelegate,UIGestureRecognizerDelegate>{
 
 }
@@ -22,6 +23,9 @@
     UITapGestureRecognizer *reg = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hiddenKey)];
     reg.delegate = self;
     [self.view addGestureRecognizer:reg];
+    
+    NSString *md5Str = [MD5 md5Encrypt:@"lsh726"];
+    NSLog(@"md5 == %@",md5Str);
 }
 
 - (void)hiddenKey {
